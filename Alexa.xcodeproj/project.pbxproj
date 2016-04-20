@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFAE6E2F1C7B27E200280EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE6E2E1C7B27E200280EE6 /* AppDelegate.swift */; };
+		EFAE6E311C7B27E200280EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE6E301C7B27E200280EE6 /* ViewController.swift */; };
+		EFAE6E341C7B27E200280EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAE6E321C7B27E200280EE6 /* Main.storyboard */; };
+		EFAE6E361C7B27E200280EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAE6E351C7B27E200280EE6 /* Assets.xcassets */; };
+		EFAE6E391C7B27E200280EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAE6E371C7B27E200280EE6 /* LaunchScreen.storyboard */; };
+		EFAE6E441C7B27E200280EE6 /* AlexaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE6E431C7B27E200280EE6 /* AlexaTests.swift */; };
+		EFAE6E591C7B3AC200280EE6 /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE6E581C7B3AC200280EE6 /* LoginWithAmazon.framework */; };
+		EFAE6E5B1C7B3B4600280EE6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE6E5A1C7B3B4600280EE6 /* Security.framework */; };
+		EFAE6E5D1C7B3B7800280EE6 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE6E5C1C7B3B7800280EE6 /* SafariServices.framework */; };
+		EFAE6E5F1C7B46CB00280EE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE6E5E1C7B46CB00280EE6 /* CoreGraphics.framework */; };
+		EFAE6E611C7B50A300280EE6 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE6E601C7B50A300280EE6 /* Config.swift */; };
+		EFAE6E631C7B554700280EE6 /* GetAccessTokenDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE6E621C7B554700280EE6 /* GetAccessTokenDelegate.swift */; };
+		EFAE6E651C7B5BEE00280EE6 /* SimplePCMRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE6E641C7B5BEE00280EE6 /* SimplePCMRecorder.swift */; };
+		EFAE6E671C7B60F900280EE6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE6E661C7B60F900280EE6 /* AVFoundation.framework */; };
+		EFAE6E691C7B60FF00280EE6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE6E681C7B60FF00280EE6 /* AudioToolbox.framework */; };
+		EFAE6E6B1C7B610600280EE6 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE6E6A1C7B610600280EE6 /* CoreAudio.framework */; };
+		EFAE6E6D1C7B632000280EE6 /* AVSUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE6E6C1C7B632000280EE6 /* AVSUploader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAE6E401C7B27E200280EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAE6E231C7B27E200280EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAE6E2A1C7B27E200280EE6;
+			remoteInfo = Alexa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFAE6E2B1C7B27E200280EE6 /* Alexa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alexa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAE6E2E1C7B27E200280EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFAE6E301C7B27E200280EE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFAE6E331C7B27E200280EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAE6E351C7B27E200280EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFAE6E381C7B27E200280EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFAE6E3A1C7B27E200280EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAE6E3F1C7B27E200280EE6 /* AlexaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlexaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAE6E431C7B27E200280EE6 /* AlexaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexaTests.swift; sourceTree = "<group>"; };
+		EFAE6E451C7B27E200280EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAE6E511C7B381D00280EE6 /* Alexa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alexa-Bridging-Header.h"; sourceTree = "<group>"; };
+		EFAE6E581C7B3AC200280EE6 /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoginWithAmazon.framework; path = Frameworks/LoginWithAmazon.framework; sourceTree = "<group>"; };
+		EFAE6E5A1C7B3B4600280EE6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EFAE6E5C1C7B3B7800280EE6 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		EFAE6E5E1C7B46CB00280EE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFAE6E601C7B50A300280EE6 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		EFAE6E621C7B554700280EE6 /* GetAccessTokenDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAccessTokenDelegate.swift; sourceTree = "<group>"; };
+		EFAE6E641C7B5BEE00280EE6 /* SimplePCMRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePCMRecorder.swift; sourceTree = "<group>"; };
+		EFAE6E661C7B60F900280EE6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EFAE6E681C7B60FF00280EE6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EFAE6E6A1C7B610600280EE6 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		EFAE6E6C1C7B632000280EE6 /* AVSUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVSUploader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAE6E281C7B27E200280EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE6E6B1C7B610600280EE6 /* CoreAudio.framework in Frameworks */,
+				EFAE6E691C7B60FF00280EE6 /* AudioToolbox.framework in Frameworks */,
+				EFAE6E671C7B60F900280EE6 /* AVFoundation.framework in Frameworks */,
+				EFAE6E5F1C7B46CB00280EE6 /* CoreGraphics.framework in Frameworks */,
+				EFAE6E5D1C7B3B7800280EE6 /* SafariServices.framework in Frameworks */,
+				EFAE6E5B1C7B3B4600280EE6 /* Security.framework in Frameworks */,
+				EFAE6E591C7B3AC200280EE6 /* LoginWithAmazon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAE6E3C1C7B27E200280EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFAE6E221C7B27E200280EE6 = {
+			isa = PBXGroup;
+			children = (
+				EFAE6E4E1C7B28AA00280EE6 /* Frameworks */,
+				EFAE6E2D1C7B27E200280EE6 /* Alexa */,
+				EFAE6E421C7B27E200280EE6 /* AlexaTests */,
+				EFAE6E2C1C7B27E200280EE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAE6E2C1C7B27E200280EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE6E2B1C7B27E200280EE6 /* Alexa.app */,
+				EFAE6E3F1C7B27E200280EE6 /* AlexaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAE6E2D1C7B27E200280EE6 /* Alexa */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE6E2E1C7B27E200280EE6 /* AppDelegate.swift */,
+				EFAE6E301C7B27E200280EE6 /* ViewController.swift */,
+				EFAE6E641C7B5BEE00280EE6 /* SimplePCMRecorder.swift */,
+				EFAE6E6C1C7B632000280EE6 /* AVSUploader.swift */,
+				EFAE6E321C7B27E200280EE6 /* Main.storyboard */,
+				EFAE6E351C7B27E200280EE6 /* Assets.xcassets */,
+				EFAE6E371C7B27E200280EE6 /* LaunchScreen.storyboard */,
+				EFAE6E3A1C7B27E200280EE6 /* Info.plist */,
+				EFAE6E511C7B381D00280EE6 /* Alexa-Bridging-Header.h */,
+				EFAE6E601C7B50A300280EE6 /* Config.swift */,
+				EFAE6E621C7B554700280EE6 /* GetAccessTokenDelegate.swift */,
+			);
+			path = Alexa;
+			sourceTree = "<group>";
+		};
+		EFAE6E421C7B27E200280EE6 /* AlexaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE6E431C7B27E200280EE6 /* AlexaTests.swift */,
+				EFAE6E451C7B27E200280EE6 /* Info.plist */,
+			);
+			path = AlexaTests;
+			sourceTree = "<group>";
+		};
+		EFAE6E4E1C7B28AA00280EE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE6E6A1C7B610600280EE6 /* CoreAudio.framework */,
+				EFAE6E681C7B60FF00280EE6 /* AudioToolbox.framework */,
+				EFAE6E661C7B60F900280EE6 /* AVFoundation.framework */,
+				EFAE6E5E1C7B46CB00280EE6 /* CoreGraphics.framework */,
+				EFAE6E5C1C7B3B7800280EE6 /* SafariServices.framework */,
+				EFAE6E5A1C7B3B4600280EE6 /* Security.framework */,
+				EFAE6E581C7B3AC200280EE6 /* LoginWithAmazon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAE6E2A1C7B27E200280EE6 /* Alexa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAE6E481C7B27E200280EE6 /* Build configuration list for PBXNativeTarget "Alexa" */;
+			buildPhases = (
+				EFAE6E271C7B27E200280EE6 /* Sources */,
+				EFAE6E281C7B27E200280EE6 /* Frameworks */,
+				EFAE6E291C7B27E200280EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alexa;
+			productName = Alexa;
+			productReference = EFAE6E2B1C7B27E200280EE6 /* Alexa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAE6E3E1C7B27E200280EE6 /* AlexaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAE6E4B1C7B27E200280EE6 /* Build configuration list for PBXNativeTarget "AlexaTests" */;
+			buildPhases = (
+				EFAE6E3B1C7B27E200280EE6 /* Sources */,
+				EFAE6E3C1C7B27E200280EE6 /* Frameworks */,
+				EFAE6E3D1C7B27E200280EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAE6E411C7B27E200280EE6 /* PBXTargetDependency */,
+			);
+			name = AlexaTests;
+			productName = AlexaTests;
+			productReference = EFAE6E3F1C7B27E200280EE6 /* AlexaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAE6E231C7B27E200280EE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Colin Harris";
+				TargetAttributes = {
+					EFAE6E2A1C7B27E200280EE6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EFAE6E3E1C7B27E200280EE6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EFAE6E2A1C7B27E200280EE6;
+					};
+				};
+			};
+			buildConfigurationList = EFAE6E261C7B27E200280EE6 /* Build configuration list for PBXProject "Alexa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAE6E221C7B27E200280EE6;
+			productRefGroup = EFAE6E2C1C7B27E200280EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAE6E2A1C7B27E200280EE6 /* Alexa */,
+				EFAE6E3E1C7B27E200280EE6 /* AlexaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAE6E291C7B27E200280EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE6E391C7B27E200280EE6 /* LaunchScreen.storyboard in Resources */,
+				EFAE6E361C7B27E200280EE6 /* Assets.xcassets in Resources */,
+				EFAE6E341C7B27E200280EE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAE6E3D1C7B27E200280EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAE6E271C7B27E200280EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE6E6D1C7B632000280EE6 /* AVSUploader.swift in Sources */,
+				EFAE6E651C7B5BEE00280EE6 /* SimplePCMRecorder.swift in Sources */,
+				EFAE6E311C7B27E200280EE6 /* ViewController.swift in Sources */,
+				EFAE6E631C7B554700280EE6 /* GetAccessTokenDelegate.swift in Sources */,
+				EFAE6E2F1C7B27E200280EE6 /* AppDelegate.swift in Sources */,
+				EFAE6E611C7B50A300280EE6 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAE6E3B1C7B27E200280EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE6E441C7B27E200280EE6 /* AlexaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAE6E411C7B27E200280EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAE6E2A1C7B27E200280EE6 /* Alexa */;
+			targetProxy = EFAE6E401C7B27E200280EE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFAE6E321C7B27E200280EE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAE6E331C7B27E200280EE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFAE6E371C7B27E200280EE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAE6E381C7B27E200280EE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAE6E461C7B27E200280EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFAE6E471C7B27E200280EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAE6E491C7B27E200280EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Alexa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colharris.Alexa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alexa/Alexa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAE6E4A1C7B27E200280EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = Alexa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colharris.Alexa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alexa/Alexa-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		EFAE6E4C1C7B27E200280EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlexaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colharris.AlexaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alexa.app/Alexa";
+			};
+			name = Debug;
+		};
+		EFAE6E4D1C7B27E200280EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlexaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colharris.AlexaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alexa.app/Alexa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAE6E261C7B27E200280EE6 /* Build configuration list for PBXProject "Alexa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAE6E461C7B27E200280EE6 /* Debug */,
+				EFAE6E471C7B27E200280EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAE6E481C7B27E200280EE6 /* Build configuration list for PBXNativeTarget "Alexa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAE6E491C7B27E200280EE6 /* Debug */,
+				EFAE6E4A1C7B27E200280EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFAE6E4B1C7B27E200280EE6 /* Build configuration list for PBXNativeTarget "AlexaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAE6E4C1C7B27E200280EE6 /* Debug */,
+				EFAE6E4D1C7B27E200280EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAE6E231C7B27E200280EE6 /* Project object */;
+}
